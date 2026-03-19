@@ -6,21 +6,21 @@ Built with Next.js 15, Groq LLM, Framer Motion, and WebGL fluid cursor.
 
 ## 🚀 Run locally
 
-\`\`\`bash
+
 git clone https://github.com/pradipbanset/Portfolio.git
 cd Portfolio
 pnpm install
-\`\`\`
+
 
 Create \`.env.local\`:
-\`\`\`
+
 GROQ_API_KEY_1=your_key
 GROQ_API_KEY_2=your_key
-\`\`\`
 
-\`\`\`bash
+
+bash
 pnpm dev
-\`\`\`
+
 
 ## 🛠 Tech Stack
 - Next.js 15, TypeScript, Tailwind CSS
