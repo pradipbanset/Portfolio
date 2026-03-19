@@ -1,70 +1,29 @@
-![image](assets/readme-photo.png)
- 
-# World's first AI portfolio 🤖✨  
+# Pradip Basnet — AI Portfolio 🤖🇳🇵
 
-**Static portfolios are dead.**  
-So I built [toukoum.fr](https://toukoum.fr).
+An AI-powered interactive portfolio where visitors can chat with my memoji avatar to learn about my projects, skills, and experience.
 
-Instead of making you scroll endlessly, my portfolio adapts to *you*.  
-Ask a question — my AI avatar replies instantly.
+Built with Next.js 15, Groq LLM, Framer Motion, and WebGL fluid cursor.
 
-## 👇 What can you ask?
+## 🚀 Run locally
 
-- 🧠 **Tech recruiter?** Ask about my stack & results  
-- 💻 **Dev?** Dive into my code & mindset  
-- 🧑‍🤝‍🧑 **Friend or family?** See what I’ve been working on  
+\`\`\`bash
+git clone https://github.com/pradipbanset/Portfolio.git
+cd Portfolio
+pnpm install
+\`\`\`
 
----
+Create \`.env.local\`:
+\`\`\`
+GROQ_API_KEY_1=your_key
+GROQ_API_KEY_2=your_key
+\`\`\`
 
-This is not a portfolio.  
-It’s a **conversation tailored to your curiosity**.
+\`\`\`bash
+pnpm dev
+\`\`\`
 
-➡️ **Try it now:** [https://toukoum.fr](https://toukoum.fr)  
-*What will you ask?*
-
-## 🚀 How to run
-
-Want to run this project locally? Here's what you need:
-
-### Prerequisites
-- **Node.js** (v18 or higher)
-- **pnpm** package manager
-- **OpenAI API token** (for AI chat functionality)
-- **GitHub token** (for GitHub integration features)
-
-### Setup
-1. **Clone the repository**
-   ```bash
-   git clone <your-repo-url>
-   cd portfolio
-   ```
-
-2. **Install dependencies**
-   ```bash
-   pnpm install
-   ```
-
-3. **Environment variables**
-   Create a `.env` file in the root directory:
-   ```env
-   OPENAI_API_KEY=your_openai_api_key_here
-   GITHUB_TOKEN=your_github_token_here
-   ```
-
-4. **Run the development server**
-   ```bash
-   pnpm dev
-   ```
-
-5. **Open your browser**
-   Navigate to `http://localhost:3000`
-
-### Getting your **tokens**
-- **OpenAI API Key**: Get it from [platform.openai.com](https://platform.openai.com/api-keys)
-- **GitHub Token**: Generate one at [github.com/settings/tokens](https://github.com/settings/personal-access-tokens) with repo access
-
-
-
-#### 🔖 Tags
-
-`#AIPortfolio` `#InnovationInTech` `#DigitalResume` `#JobSearch` `#TechInnovation` `#WebDevelopment` `#FutureTech`
+## 🛠 Tech Stack
+- Next.js 15, TypeScript, Tailwind CSS
+- Groq LLM (llama-3.3-70b-versatile)
+- Framer Motion, WebGL fluid cursor
+- Vercel AI SDK
